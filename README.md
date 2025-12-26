@@ -73,6 +73,7 @@ TeamManager.h：定义队伍管理器类，负责队伍成员的初始化、切�
 TeamWidgetItem.h：定义队伍编辑界面单个角色展示的图标的类，负责显示对应队伍对应序号的角色图标，可接收点击或者拖动信息，实现对应 Private 中的TeamWidgetItem.cpp。
 
 Private ：
+
 AccountData.cpp：实现UAccountData类的功能，包含AddCharacter方法，用于向账户添加角色（包含重复检查和日志输出）。
 
 AccountManager.cpp：实现UAccountManager类的功能，负责记录现有的所有账户。
